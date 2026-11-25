@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">MinimalPlayback</string>
+    <string name="notification_listener_label">MinimalPlayback Media Listener</string>
+    <string name="notif_channel_name">Playback Controls</string>
+    <string name="notif_channel_desc">Persistent live track artwork, lyrics status, and media transport controls</string>
+
+    <!-- Sources & Header -->
+    <string name="source_external">External Player</string>
+    <string name="source_local">Local Device</string>
+    <string name="cd_equalizer_settings">Equalizer Settings</string>
+    <string name="cd_app_settings">App Settings</string>
+    <string name="cd_dim_lock">Activate Pocket Dim Lock</string>
+    <string name="cd_local_library">Browse Local Audio Library</string>
+
+    <!-- Onboarding & Empty States -->
+    <string name="external_permission_title">Connect Active Media</string>
+    <string name="external_permission_desc">Grant Notification Access so MinimalPlayback can mirror Spotify, YouTube Music, or any player with real-time synced lyrics and queue controls.</string>
+    <string name="grant_notification_access">Enable Notification Access</string>
+    <string name="waiting_for_playback_title">Waiting for Playback</string>
+    <string name="waiting_for_playback_desc">Start playing music in Spotify, YouTube Music, or switch to Local Device to play audio stored on your phone.</string>
+    <string name="switch_to_local">Switch to Local Device</string>
+
+    <!-- Local Library -->
+    <string name="local_permission_title">Scan Local Audio</string>
+    <string name="local_permission_desc">Allow audio access to index MP3, FLAC, M4A, and WAV tracks on your device with embedded artwork and ID3 lyrics.</string>
+    <string name="grant_audio_permission">Grant Audio Access</string>
+    <string name="local_library_title">Local Library</string>
+    <string name="tab_songs">Songs</string>
+    <string name="tab_albums">Albums</string>
+    <string name="tab_folders">Folders</string>
+    <string name="no_local_audio">No audio files found on this device.</string>
+    <string name="rescan_library">Rescan</string>
+    <string name="play_all">Play All</string>
+
+    <!-- Controls & Queue -->
+    <string name="tab_controls">Controls</string>
+    <string name="tab_up_next">Up Next</string>
+    <string name="playing_next_badge">PLAYING NEXT</string>
+    <string name="recommended_next_title">Recommended Next</string>
+    <string name="recommended_by_ai">Curated by Gemini Flash</string>
+    <string name="queue_empty_title">No Live Queue Reported</string>
+    <string name="queue_empty_desc">Tap Suggest Tracks to discover 5 matching songs for what is playing now.</string>
+    <string name="generate_suggestions">Suggest Tracks</string>
+    <string name="cd_play_pause">Play or Pause</string>
+    <string name="cd_previous">Previous Track</string>
+    <string name="cd_next">Next Track</string>
+    <string name="cd_shuffle">Toggle Shuffle</string>
+    <string name="cd_repeat">Cycle Repeat Mode</string>
+    <string name="cd_volume_up">Volume Up</string>
+    <string name="cd_volume_down">Volume Down</string>
+    <string name="cd_album_art">Album Cover Art</string>
+    <string name="cd_song_radio">Start Song Radio</string>
+    <string name="song_radio_label">Radio</string>
+
+    <!-- Lyrics -->
+    <string name="lyrics_loading">Fetching synced lyrics…</string>
+    <string name="lyrics_ai_syncing">AI aligning vocal timing…</string>
+    <string name="lyrics_ai_badge">AI-Synced</string>
+    <string name="lyrics_embedded_badge">ID3 Embedded</string>
+    <string name="lyrics_lrclib_badge">Standard LRCLIB Sync</string>
+    <string name="lyrics_karalyr_badge">Karalyr Sync</string>
+    <string name="lyrics_ovh_badge">Lyrics.ovh</string>
+    <string name="lyrics_empty">No synced lyrics found for this track.</string>
+    <string name="lyrics_unavailable_all_sources">Lyrics for this song is not available on any source.</string>
+    <string name="lyrics_retry">Retry Lyrics</string>
+    <string name="vocal_offset_label">Vocal Offset</string>
+
+    <!-- Pocket / Dim Lock -->
+    <string name="dim_lock_title">Pocket Dim Lock Active</string>
+    <string name="dim_lock_hints">Vol -/+: Volume / Mute  •  Hold Vol -/+: Next / Prev  •  Flick / Flip: Skip / Pause</string>
+    <string name="hold_to_unlock">Hold to Unlock</string>
+
+    <!-- Equalizer & Settings -->
+    <string name="eq_sheet_title">Sound Tuning</string>
+    <string name="eq_enable_toggle">Global Equalizer</string>
+    <string name="bass_boost_label">Bass Boost</string>
+    <string name="motion_gestures_title">Motion Gestures (Pocket Mode)</string>
+    <string name="motion_gestures_desc">Horizontal wrist flick skips next; turning face-down toggles play/pause.</string>
+    <string name="motion_sensitivity">Gesture Sensitivity</string>
+    <string name="eq_unavailable_notice">Hardware Equalizer on global mix is restricted on this device; visual curve &amp; local ExoPlayer session remain active.</string>
+
+    <!-- Dedicated Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_gestures_section">Gesture &amp; Button Customization</string>
+    <string name="settings_theme_section">App Theme &amp; Appearance</string>
+    <string name="settings_font_section">Custom App Font (.ttf / .otf)</string>
+    <string name="glass_blur_label">Blur / Glass Intensity</string>
+    <string name="upload_custom_font">Upload Custom Font (.ttf / .otf)</string>
+    <string name="reset_default_font">Reset to Default Font</string>
+    <string name="default_font_name">Plus Jakarta Sans (Default)</string>
+    <string name="wrist_flick_label">Wrist Flick Gesture</string>
+    <string name="face_down_label">Face-Down Flip Gesture</string>
+    <string name="vol_up_short_label">Volume Up (Single Press)</string>
+    <string name="vol_down_short_label">Volume Down (Single Press)</string>
+    <string name="vol_up_long_label">Volume Up (Long Press)</string>
+    <string name="vol_down_long_label">Volume Down (Long Press)</string>
+
+    <!-- Theme Preferences -->
+    <string name="theme_section_title">Theme &amp; Surface</string>
+    <string name="amoled_black_label">Pure AMOLED Black</string>
+    <string name="amoled_black_desc">Deep true-black canvas for OLED power savings.</string>
+
+    <!-- Live Visualizer -->
+    <string name="visualizer_enable_cta">Tap to Enable Live Waveform</string>
+    <string name="visualizer_live_badge">LIVE WAVEFORM</string>
+    <string name="visualizer_paused_badge">STANDBY</string>
+
+    <!-- Sleep Timer -->
+    <string name="sleep_timer_label">Sleep</string>
+    <string name="sleep_timer_title">Sleep Timer</string>
+    <string name="sleep_timer_desc">Smoothly fades out media volume over 5s and pauses playback.</string>
+    <string name="sleep_timer_custom">Custom Duration</string>
+    <string name="sleep_timer_start">Start Timer</string>
+    <string name="sleep_timer_cancel">Turn Off</string>
+    <string name="sleep_timer_end_of_track">End of Track</string>
+    <string name="sleep_timer_off">Off</string>
+    <string name="sleep_timer_add_five">+5 min</string>
+    <string name="cd_sleep_timer">Configure Sleep Timer</string>
+
+    <!-- Haptic Feedback Settings -->
+    <string name="settings_haptics_section">Haptic Feedback</string>
+    <string name="haptics_master_label">Enable Haptic Feedback</string>
+    <string name="haptics_intensity_label">Vibration Strength</string>
+    <string name="haptics_transport_label">Transport &amp; Action Buttons</string>
+    <string name="haptics_sliders_label">Volume &amp; Seek Bar Ticks</string>
+    <string name="haptics_gestures_label">Pocket Lock &amp; Motion Gestures</string>
+
+    <!-- Clock & Inactivity Dim Lock -->
+    <string name="settings_lock_clock_section">Lock Screen Clock &amp; Inactivity</string>
+    <string name="clock_format_label">Lock Screen Clock Format</string>
+    <string name="clock_format_12h">12-Hour (AM/PM)</string>
+    <string name="clock_format_24h">24-Hour</string>
+    <string name="dim_lock_timeout_label">Dim Lock Inactivity Timeout</string>
+    <string name="dim_lock_timeout_desc">Automatically activates Pocket Dim Lock after inactivity while keeping the display awake.</string>
+
+    <!-- Custom Color Picker -->
+    <string name="custom_accent_color_label">Custom App Accent Color</string>
+    <string name="custom_font_color_label">Custom Font Color</string>
+    <string name="pick_color_label">Pick Color</string>
+    <string name="reset_colors_default">Reset Colors to Default</string>
+    <string name="color_picker_title_accent">Custom Accent Color</string>
+    <string name="color_picker_title_font">Custom Font Color</string>
+    <string name="hex_code_label">Hex Code</string>
+    <string name="brightness_label">Brightness</string>
+    <string name="apply_color">Apply Color</string>
+    <string name="cancel_label">Cancel</string>
+
+    <!-- Playback Habits & Stats Panel -->
+    <string name="tab_stats">Stats</string>
+    <string name="stats_panel_title">Playback Habits</string>
+    <string name="stats_panel_subtitle">Saved via DataStore</string>
+    <string name="stats_dim_lock_time">Dim Lock Time</string>
+    <string name="stats_total_listening">Listening Time</string>
+    <string name="stats_tracks_played">Tracks Played</string>
+    <string name="stats_dim_sessions">Dim Sessions</string>
+    <string name="stats_top_artists_title">Most Listened To Artists</string>
+    <string name="stats_top_artists_empty">Play tracks from Spotify, YouTube Music, or your local library to build your artist leaderboard.</string>
+    <string name="stats_source_mix_title">Playback Source Mix</string>
+    <string name="stats_longest_dim_lock">Best Dim Lock</string>
+    <string name="stats_reset_button">Reset Stats</string>
+    <string name="stats_reset_confirm">Confirm Reset</string>
+    <string name="stats_plays_suffix">plays</string>
+
+    <!-- Lyrics Text Size -->
+    <string name="settings_lyrics_section">Lyrics Typography</string>
+    <string name="lyrics_text_size_label">Lyrics Text Size</string>
+    <string name="lyrics_text_size_desc">Scales synced lyrics independently from the rest of the app.</string>
+    <string name="lyrics_preview_active">Every word shines in real time</string>
+    <string name="lyrics_preview_next">Upcoming lyric line preview</string>
+    <string name="lyrics_size_reset">Reset 100%</string>
+    <string name="export_lyrics_label">Export</string>
+</resources>

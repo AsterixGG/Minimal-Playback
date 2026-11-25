@@ -1,0 +1,6 @@
+{
+  "name": "MinimalPlayback",
+  "description": "Immersive landscape-first audio dashboard with AI-synced LRCLIB lyrics, local Media3 player, Pocket Dim Lock gestures, and custom equalizer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

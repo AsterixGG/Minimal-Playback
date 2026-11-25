@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="obsidian_bg">#FF090B10</color>
+    <color name="surface_card">#FF131722</color>
+    <color name="cyan_accent">#FF38BDF8</color>
+    <color name="amber_accent">#FFF59E0B</color>
+    <color name="text_primary">#FFF8FAFC</color>
+    <color name="text_secondary">#FF94A3B8</color>
+    <color name="notif_progress_bg">#33FFFFFF</color>
+</resources>
