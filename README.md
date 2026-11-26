@@ -1,16 +1,13 @@
 <div align="center">
 
-  <img src="logo.png" width="130" height="130" alt="MinimalPlayback Logo">
+  <img src="https://raw.githubusercontent.com/AsterixGG/MinimalPlayback/main/logo.png" width="130" height="130" alt="MinimalPlayback Logo">
 
   # MinimalPlayback
   **A clean, lightweight, distraction-free music player built by Astrix Studios.**
 
   <p>
     <a href="https://github.com/AsterixGG/MinimalPlayback/releases/latest">
-      <img src="https://img.shields.io/badge/Download-Latest_Release-2ea44f?style=for-the-badge&logo=android&logoColor=white" alt="Download Latest Release">
-    </a>
-    <a href="https://github.com/AsterixGG/MinimalPlayback/releases">
-      <img src="https://img.shields.io/badge/Version-v1.0.0-blue?style=for-the-badge" alt="Version">
+      <img src="https://raw.githubusercontent.com/stefan-niedermann/syncopated/master/assets/get-it-on-github.png" alt="Get it on GitHub" height="60">
     </a>
   </p>
 
@@ -18,19 +15,10 @@
 
 ---
 
-### 📱 App Previews
+### 📱 App Preview
 
 <div align="center">
-  <table>
-    <tr>
-      <td align="center"><strong>Android</strong></td>
-      <td align="center"><strong>iOS / Concept</strong></td>
-    </tr>
-    <tr>
-      <td><img src="android-preview.png" width="260" alt="Android Preview"></td>
-      <td><img src="ios-preview.png" width="260" alt="iOS Preview"></td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/AsterixGG/MinimalPlayback/main/android-preview.png" width="280" alt="MinimalPlayback Android Preview">
 </div>
 
 ---
@@ -43,6 +31,6 @@
 ---
 
 ### 📥 How to Install
-1. Click the **Download Latest Release** button above.
-2. Under **Assets**, download **`app-release.apk`** (or the `x64` variant if listed).
-3. Tap the downloaded APK on your phone, allow installation from your browser/file manager if prompted, and tap **Install**.
+1. Click the **Get it on GitHub** badge above.
+2. Under **Assets**, download **`app-release.apk`**.
+3. Tap the downloaded APK on your phone, allow installation from your browser or file manager if prompted, and tap **Install**.<img width="484" height="476" alt="logo" src="https://github.com/user-attachments/assets/eacecaba-ea8c-4d98-8ba0-2a470128684d" />
